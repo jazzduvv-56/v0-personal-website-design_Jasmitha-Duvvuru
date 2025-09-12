@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Github, Linkedin } from "lucide-react"
+import { Mail } from "lucide-react"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -40,9 +40,9 @@ export function ContactSection() {
           <div className="grid lg:grid-cols-2 gap-12">
             <Card>
               <CardHeader>
-                <CardTitle>Send me a message</CardTitle>
+                <CardTitle>Send me a feedback</CardTitle>
                 <CardDescription>
-                  {"I'd love to hear from you. Send me a message and I'll respond as soon as possible."}
+                  {"I'd love to hear from you. Send me a feedback and I'll respond as soon as possible."}
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -71,7 +71,7 @@ export function ContactSection() {
                     />
                   </div>
                   <Button type="submit" className="w-full">
-                    Send Message
+                    Send Feedback
                   </Button>
                 </form>
               </CardContent>
@@ -94,26 +94,6 @@ export function ContactSection() {
                 >
                   <Mail className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                   <span>jd56@illinois.edu</span>
-                </a>
-
-                <a
-                  href="https://github.com/jazzduvv-56"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-3 p-4 bg-card rounded-lg border hover:shadow-md transition-shadow group"
-                >
-                  <Github className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
-                  <span>GitHub Profile</span>
-                </a>
-
-                <a
-                  href="https://www.linkedin.com/in/duvvurujasmitha/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-3 p-4 bg-card rounded-lg border hover:shadow-md transition-shadow group"
-                >
-                  <Linkedin className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
-                  <span>LinkedIn Profile</span>
                 </a>
               </div>
             </div>

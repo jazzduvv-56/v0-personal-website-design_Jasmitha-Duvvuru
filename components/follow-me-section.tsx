@@ -1,20 +1,18 @@
-import { Github, Linkedin, ExternalLink } from "lucide-react"
+import { Github, Linkedin } from "lucide-react"
 
 export function FollowMeSection() {
   const socialLinks = [
     {
-      name: "GitHub",
-      url: "https://github.com/jasmitha-duvvuru",
+      name: "GitHub Profile",
       icon: Github,
-      description: "Check out my code repositories and open source contributions",
-      color: "hover:bg-gray-900 hover:text-white",
+      url: "https://github.com/jasmitha-duvvuru",
+      description: "Check out my code repositories and projects",
     },
     {
-      name: "LinkedIn",
-      url: "https://linkedin.com/in/jasmitha-duvvuru",
+      name: "LinkedIn Profile",
       icon: Linkedin,
-      description: "Connect with me professionally and see my career journey",
-      color: "hover:bg-blue-600 hover:text-white",
+      url: "https://linkedin.com/in/jasmitha-duvvuru",
+      description: "Connect with me professionally",
     },
   ]
 
@@ -28,7 +26,7 @@ export function FollowMeSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
           {socialLinks.map((link, index) => {
             const IconComponent = link.icon
             return (
@@ -37,20 +35,13 @@ export function FollowMeSection() {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`group bg-white rounded-xl p-8 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl ${link.color} border-2 border-transparent hover:border-current`}
+                className="flex items-center gap-4 p-6 bg-green-50 rounded-xl border border-green-200 hover:bg-green-100 transition-colors group"
               >
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center">
-                    <IconComponent className="w-8 h-8 text-gray-700 group-hover:text-current transition-colors duration-300" />
-                    <h3 className="text-2xl font-bold text-gray-900 group-hover:text-current transition-colors duration-300 ml-4">
-                      {link.name}
-                    </h3>
-                  </div>
-                  <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-current transition-colors duration-300" />
+                <IconComponent className="w-6 h-6 text-green-600 group-hover:text-green-700" />
+                <div className="text-left">
+                  <h3 className="font-semibold text-gray-900">{link.name}</h3>
+                  <p className="text-sm text-gray-600">{link.description}</p>
                 </div>
-                <p className="text-gray-600 group-hover:text-current transition-colors duration-300 text-justify">
-                  {link.description}
-                </p>
               </a>
             )
           })}

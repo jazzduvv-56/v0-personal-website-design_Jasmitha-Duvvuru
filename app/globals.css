@@ -20,7 +20,8 @@
   --accent: oklch(0.75 0.2 85); /* #84cc16 */
   --accent-foreground: oklch(0.3 0 0); /* #374151 */
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
+  /* Fixed destructive-foreground to use white text for proper contrast */
+  --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.85 0 0); /* #d1d5db */
   --input: oklch(0.98 0.02 142); /* #f0fdf4 */
   --ring: oklch(0.45 0.15 142); /* #15803d */
