@@ -3,6 +3,9 @@ import { HeroSection } from "@/components/hero-section"
 import { AboutSection } from "@/components/about-section"
 import { ProjectsSection } from "@/components/projects-section"
 import { SkillsSection } from "@/components/skills-section"
+import { TestimonialsSection } from "@/components/testimonials-section"
+import { GetInTouchSection } from "@/components/get-in-touch-section"
+import { FollowMeSection } from "@/components/follow-me-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 
@@ -14,6 +17,9 @@ export default function Home() {
       <AboutSection />
       <ProjectsSection />
       <SkillsSection />
+      <TestimonialsSection />
+      <GetInTouchSection />
+      <FollowMeSection />
       <ContactSection />
       <Footer />
     </main>
