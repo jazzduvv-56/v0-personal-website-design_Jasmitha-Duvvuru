@@ -5,7 +5,7 @@ export function FollowMeSection() {
     {
       name: "GitHub Profile",
       icon: Github,
-      url: "https://github.com/jasmitha-duvvuru",
+      url: "https://github.com/jazzduvv-56",
       description: "Check out my code repositories and projects",
     },
     {
