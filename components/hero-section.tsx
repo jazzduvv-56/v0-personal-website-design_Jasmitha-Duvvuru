@@ -17,14 +17,14 @@ export function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-6xl font-bold text-balance">
+              <h1 className="text-4xl lg:text-6xl font-bold text-balance whitespace-nowrap">
                 {"Hi, I'm "}
                 <span className="text-primary">Jasmitha Duvvuru</span>
               </h1>
               <h2 className="text-2xl lg:text-3xl text-muted-foreground font-medium">Data Engineer</h2>
             </div>
 
-            <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
+            <p className="text-lg text-muted-foreground leading-relaxed text-pretty text-justify">
               Results-oriented Data Engineer with 3+ years of experience building and optimizing data pipelines for
               healthcare systems serving millions. Proven ability to clean and model data (SQL, Python), build
               dashboards (Power BI), and improve system performance by 30–40% through automation and root-cause
@@ -47,7 +47,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-center">
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                 <Image
