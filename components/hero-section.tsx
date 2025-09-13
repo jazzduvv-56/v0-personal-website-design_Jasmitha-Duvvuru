@@ -39,7 +39,7 @@ export function HeroSection() {
               <Button
                 variant="outline"
                 size="lg"
-                onClick={() => scrollToSection("contact")}
+                onClick={() => scrollToSection("follow-me")}
                 className="text-lg px-8 py-6"
               >
                 Get In Touch

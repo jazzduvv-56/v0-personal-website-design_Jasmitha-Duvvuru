@@ -11,7 +11,7 @@ export function FollowMeSection() {
     {
       name: "LinkedIn Profile",
       icon: Linkedin,
-      url: "https://linkedin.com/in/jasmitha-duvvuru",
+      url: "https://www.linkedin.com/in/duvvurujasmitha/",
       description: "Connect with me professionally",
     },
   ]

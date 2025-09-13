@@ -44,10 +44,10 @@ export function Header() {
               Skills
             </button>
             <button
-              onClick={() => scrollToSection("contact")}
+              onClick={() => scrollToSection("follow-me")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Contact
+              Follow Me
             </button>
           </nav>
 
@@ -79,10 +79,10 @@ export function Header() {
               Skills
             </button>
             <button
-              onClick={() => scrollToSection("contact")}
+              onClick={() => scrollToSection("follow-me")}
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors"
             >
-              Contact
+              Follow Me
             </button>
           </nav>
         )}
