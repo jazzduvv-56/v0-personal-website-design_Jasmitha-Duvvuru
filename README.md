@@ -16,6 +16,8 @@ Your project is live at:
 
 **[https://vercel.com/jd56-8681s-projects/v0-personal-website-design](https://vercel.com/jd56-8681s-projects/v0-personal-website-design)**
 
+Click here to see my webite : https://v0-personal-website-design-rho-ochre.vercel.app/
+
 ## Build your app
 
 Continue building your app on:
