@@ -20,11 +20,11 @@ export function SkillsSection() {
 
   const getSkillColor = (index: number) => {
     const colors = [
-      "bg-primary text-primary-foreground",
-      "bg-accent text-accent-foreground",
-      "bg-chart-3 text-white",
-      "bg-chart-4 text-white",
-      "bg-chart-5 text-white",
+      "bg-green-600 text-white", // Dark green background with white text
+      "bg-green-100 text-green-800", // Light green background with dark green text
+      "bg-blue-600 text-white", // Blue background with white text
+      "bg-orange-500 text-white", // Orange background with white text
+      "bg-gray-200 text-gray-800", // Light gray background with dark gray text
     ]
     return colors[index % colors.length]
   }
